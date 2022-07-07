@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   border-right: solid 1px var(--border-color);
+  row-gap: 6rem;
 }
 
 .logo {
@@ -43,4 +44,23 @@
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.profile {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.profile_name {
+  font-weight: 700;
+}
+
+.profile_email {
+  color: var(--font-secondary-color);
 }

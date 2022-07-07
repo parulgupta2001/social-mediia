@@ -47,6 +47,14 @@ export function LeftNav() {
 
         <button className="tweet_btn">Tweet</button>
       </div>
+
+      <div className="profile">
+        <img src="http://res.cloudinary.com/dwhran9qg/image/upload/avatar/6_j6gf77.jpg" />
+        <div>
+          <div className="profile_name">Parul Gupta</div>
+          <div className="profile_email">@guptaparul123</div>
+        </div>
+      </div>
     </div>
   );
 }
